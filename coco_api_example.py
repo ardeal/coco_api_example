@@ -54,16 +54,12 @@ def coco_image_example():
 
         aaaaaa = 0
 
-        # anns_image_id = cocodataset.anns[key]['image_id']
-        # if anns_image_id == image0_id:
-        #     print('found anns key =={}, anns_id = {}, for image0_id ={}'.format(key, val['id'], image0_id))
-
 
 if __name__ == '__main__':
 
     # ------------------------->
-    save_coco_json_header()
-    coco_image()
+    # save_coco_json_header()
+    coco_image_example()
 
 
     aaaaaaaaaaaaaaaaa=0

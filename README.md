@@ -1,6 +1,15 @@
 # examples about how to use coco api
 
 
+# explanation: image_id and annotation id
+**each image has a unique id: image_id**  
+**each annotation dict has a unique id: id**  
+**each image might have several annotation items. so each image includes several annotation id. this is the reason why <code>COCO.imgToAnns[val['id']]</code> might have several items**  
+**each annotation item(id) much belongs a certain image.**  
+
+# explanation: COCO class
+**for imgs dict in COCO class, there are many images(dict) in the dict. the key of each dict in imgs dict is the image_id**
+**for anns dict in COCO clas, there are many annotation items(dict). the key of each dict in anns dict is the annotation id**
 
 
 # save_coco_json_header() function in the code
