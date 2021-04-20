@@ -27,8 +27,7 @@ the code shows how to read 1 image and its annotation from coco and show them.
 
 # data structure of coco json
 the following picture shows the data structure of coco json. it explains image_id and annotation_id.
-
-
+<p align="left"><img width="800" src="https://github.com/ardeal/coco_api_example/blob/master/coco_json_explanation.png"></p>
 
 
 
